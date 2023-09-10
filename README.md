@@ -5,4 +5,7 @@ have to pay for importing alcohol into Canada.  The best reference available was
 https://www.lcbo.com/content/lcbo/en/corporate-pages/about/aboutourbusiness/importing.html
 
 After seeing the various prices needed to pay, I figured to make a function that can create liquor objects.  
-With this function, you input the size of the bottle you are importing, the alcohol%, and retail price that you paid converted into Canadian dollars.  Currently, this version only has Liquor, but Beer and Wine will shortly be added.  
+With this function, you input the size of the bottle you are importing, the alcohol%, and retail price that you paid converted into Canadian dollars.  Simply instantiate an object in the 'alcohol_list.py' file
+with the format provided.  In the 'main.py' file, add your alcohol of interest into 'import_list', and run the function!
+
+Future updates will include changing the liquor class objects to be instantiated as a dictionary rather than a list with specific values at specific positions.  
